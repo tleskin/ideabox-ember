@@ -1,5 +1,5 @@
 <div class="idea">
-  <h2>{{idea.title}}</h2>
+  <h2>{{idea.title}} {{if idea.isDirty '(Unsaved)'}}</h2>
   <p>{{idea.body}}</p>
   <div class="buttons">
     <button class="edit" {{action 'edit'}}>Edit</button>
