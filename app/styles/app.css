@@ -23,6 +23,12 @@
   margin-bottom: 1em;
 }
 
+.dirty-idea {
+  background-color: rgb(255, 0, 0);
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
 h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
   margin-top: 0;
 }
